@@ -150,7 +150,7 @@ module.exports = {
     }
 
     var styleManifest = new StyleManifest(podStyles, {
-      outputFileNameWithoutExtension: 'pod-styles',
+      outputFileNameWithoutExtension: '_pod-styles',
       annotation: 'StyleManifest (ember-component-css combining all style files that there are extensions for)'
     });
 
